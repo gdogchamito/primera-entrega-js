@@ -2,9 +2,13 @@ let seleccionPropiedad = prompt('Seleccione una propiedad: Casa, Departamento, T
 
 if (seleccionPropiedad == 'casa') {
      console.log(nombre + ' seleccionaste una casa');
- } else if (seleccionPropiedad == 'departamento') {
+ } 
+ else if (seleccionPropiedad == 'departamento') {
      console.log(nombre + 'seleccionaste un departamento');
- } else if (seleccionPropiedad == 'terreno') {
+ } 
+ else if (seleccionPropiedad == 'terreno') {
      console.log(nombre +' seleccionaste un terreno');
- } else {
+ } 
+ else {
      console.log( nombre +' Ingreso un valor incorrecto');
+    }    
